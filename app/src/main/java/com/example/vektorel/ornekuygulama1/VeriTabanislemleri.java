@@ -35,7 +35,7 @@ public class VeriTabanislemleri extends SQLiteOpenHelper {
 
         SQLiteDatabase db = this.getWritableDatabase();
 
-        db.execSQL("insert into tblmusteri (ad,soyad) values('" + mst.getSoyad() + "','" + mst.getAd() + "')");
+        db.execSQL("insert into tblmusteri (ad,soyad) values('" + mst.getAd() + "','" + mst.getSoyad() + "')");
 
     }
 
